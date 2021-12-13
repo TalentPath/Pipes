@@ -1,0 +1,10 @@
+<h1>{{upperCaseString | uppercase}}</h1>
+<h1>{{lowerCaseString | lowercase}}</h1>
+
+<h1>{{curr | currency}}</h1>
+
+<h1>{{curr | currency: 'USD' : '' : '2.0-2'}}</h1>
+
+<h1>Example of Custom Pipe</h1>
+<p> {{user.city | highlight: user.city : user.cityCode}}</p>
+
